@@ -1,0 +1,21 @@
+{
+  "name": "tw-minesweeper-client",
+  "source": "src/index.html",
+  "scripts": {
+    "serve": "parcel",
+    "build": "parcel build",
+    "test": "exit 1"
+  },
+  "staticFiles": {
+    "staticPath": "src/static",
+    "staticOutPath": "static"
+  },
+  "devDependencies": {
+    "eslint": "^8.52.0",
+    "parcel": "^2.10.1",
+    "parcel-reporter-static-files-copy": "^1.5.3",
+    "prettier": "^3.0.3",
+    "stylelint": "^15.11.0",
+    "stylelint-config-standard": "^34.0.0"
+  }
+}

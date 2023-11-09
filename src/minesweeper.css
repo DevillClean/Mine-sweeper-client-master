@@ -1,0 +1,119 @@
+.title {
+  text-align: center;
+  font-family: palatino, serif;
+  font-size: 30px;
+}
+
+.mute-button {
+  display: none;
+}
+
+.authentication {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  font-family: palatino, serif;
+  font-size: 15px;
+}
+
+.log-out {
+  margin-left: auto;
+  margin-right: auto;
+  display: none;
+}
+
+.menu {
+  height: auto;
+  width: auto;
+  text-align: center;
+  display: none;
+}
+
+.tab {
+  border-collapse: collapse;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  width: auto;
+}
+
+.honor-table {
+  font-family: palatino, serif;
+  font-size: 15px;
+  width: 200px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  border-radius: 5px;
+  border-width: medium;
+  border-color: red;
+  border-style: dashed;
+  display: none;
+}
+
+.shutdown {
+  display: none;
+}
+
+.progress {
+  text-align: center;
+  font-family: palatino, serif;
+  font-size: 15px;
+  display: none;
+}
+
+.honor-hide {
+  display: none;
+}
+
+.honor-dif {
+  display: none;
+}
+
+.honor-dif-multiplayer {
+  display: none;
+}
+
+.exit {
+  display: none;
+}
+
+.warning-message {
+  text-align: center;
+  font-family: palatino, serif;
+  color: red;
+  font-size: 20px;
+}
+
+body {
+  background-image: radial-gradient(
+    circle farthest-corner at 22.4% 21.7%,
+    rgb(4 189 228 / 100%) 0%,
+    rgb(2 83 185 / 100%) 100.2%
+  );
+}
+
+html {
+  height: 100%;
+  width: 100%;
+}
+
+th,
+td {
+  height: 20px;
+  width: 20px;
+  font-size: 1px;
+}
+
+td img {
+  height: 20px;
+  width: 20px;
+  text-align: center;
+  position: absolute;
+  z-index: 0;
+}
+
+td canvas {
+  position: absolute;
+  z-index: 20;
+}
